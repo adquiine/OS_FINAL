@@ -55,6 +55,24 @@ First, install the necessary packages for kernel module development
 
 Then we created .c ﬁle to execute our code to add our kernel module!
 
+BELOW IS THE CODE 
+
+  MODULE_LICENCE("GPL");
+  MODULE_AUTHOR("Mukhamedzhan");
+  MODULE_DESCRIPTION("A SIMPLE LINUX KERNEL MODULE");
+  MODULE_VERSION("0.1");
+
+  static int __init hello_init(void) {
+    printk(KERN_INFO "Loading HEllo Module ... \n");
+    printk(KERN_INFO "Hello World\n");
+    return 0;
+  }
+
+  static void __exit hello_exit(void) {
+    printk(KERN INFO "Goodbye World\n");
+
+  module_init(hello_init);
+  module_exit(hello_exit);
 
 ![image](https://user-images.githubusercontent.com/86833038/218451402-47bcb0dd-dd47-45a0-81ba-6ab53b43eb46.png)
 
