@@ -5,6 +5,7 @@ There are all the explanations for final exam
 2)	Elnur Khamzin	CS-2122
 3)	Nazerke Adilgali	CS-2122
 4)  Aidana Kypshakova CS-2122
+5)  Aruzhan Bisimbaeva CS-2122
 
 Task 1:
 
